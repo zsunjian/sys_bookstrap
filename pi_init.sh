@@ -23,4 +23,9 @@ sudo make install
 sudo lib-src/blessmail /usr/local/libexec/emacs/25.2/armv7l-unknown-linux-gnueabihf/movemail
 git clone https://github.com/syl20bnr/spacemacs ~/.emacs.d
 
-
+# Python
+sudo apt-get install python-dev
+curl -O https://bootstrap.pypa.io/get-pip.py
+sudo python get-pip.py
+# sudo pip install virtualenv
+sudo apt-get install python-virtualenv
